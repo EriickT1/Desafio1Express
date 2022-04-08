@@ -1,0 +1,11 @@
+<h4 class="text-center">Bienvenido al mercado web, seleccione sus productos</h4>
+<div class="container">
+    <div class="row text-center">
+        {{#each frutas}}
+            <div class="col-4">
+                {{this}}
+                <img class="d-block m-auto" src="./assets/img/{{this}}.png" alt="{{this}}">
+            </div>
+        {{/each}}
+    </div>
+</div>
